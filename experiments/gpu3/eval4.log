@@ -1,0 +1,2 @@
+base stack of 172 members: 0.962023
+gpu3_realmlp_raw_auxA_k10        single 0.961217 maxcorr 0.9970 (sach_rmlp_raw_aux_k10) stack 0.962061 gain +0.000038 (folds +5/5, min +0.000022)

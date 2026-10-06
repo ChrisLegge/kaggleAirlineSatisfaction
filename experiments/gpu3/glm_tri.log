@@ -1,0 +1,9 @@
+{'name': 'gpu3_glm_tri', 'folds': 'all', 'C': 0.03, 'pairs': 1, 'triples': 1, 'min_count': 5, 'notes': ''}
+fields 360
+X (999479, 54894) nnz/row 360
+[gpu3_glm_tri] fold 0: AUC 0.95803 iters [291] (97s)
+[gpu3_glm_tri] fold 1: AUC 0.95703 iters [310] (142s)
+[gpu3_glm_tri] fold 2: AUC 0.95906 iters [313] (134s)
+[gpu3_glm_tri] fold 3: AUC 0.95826 iters [301] (117s)
+[gpu3_glm_tri] fold 4: AUC 0.95825 iters [287] (89s)
+[gpu3_glm_tri] CV AUC 0.958124  folds [0.95803 0.95703 0.95906 0.95826 0.95825]

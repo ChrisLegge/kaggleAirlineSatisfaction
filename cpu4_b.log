@@ -1,0 +1,12 @@
+aux cols 30
+[cpu4_lgbm_t34_auxA_k10] fold 0: 0.961769 iters 1704 (198s)
+[cpu4_lgbm_t34_auxA_k10] fold 1: 0.960883 iters 1199 (121s)
+[cpu4_lgbm_t34_auxA_k10] fold 2: 0.960661 iters 1387 (134s)
+[cpu4_lgbm_t34_auxA_k10] fold 3: 0.959645 iters 1209 (138s)
+[cpu4_lgbm_t34_auxA_k10] fold 4: 0.961531 iters 1088 (123s)
+[cpu4_lgbm_t34_auxA_k10] fold 5: 0.962049 iters 1334 (129s)
+[cpu4_lgbm_t34_auxA_k10] fold 6: 0.960805 iters 1524 (142s)
+[cpu4_lgbm_t34_auxA_k10] fold 7: 0.961778 iters 903 (108s)
+[cpu4_lgbm_t34_auxA_k10] fold 8: 0.960795 iters 788 (97s)
+[cpu4_lgbm_t34_auxA_k10] fold 9: 0.961318 iters 1216 (149s)
+[cpu4_lgbm_t34_auxA_k10] CV AUC 0.961121  folds [0.96133 0.96015 0.96179 0.96129 0.96105]

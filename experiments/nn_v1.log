@@ -1,0 +1,24 @@
+﻿{'name': 'gpu_nn_v1', 'folds': 'all', 'seeds': '0,1,2', 'epochs': 20, 'patience': 20, 'bs': 4096, 'lr': 0.003, 'wd': 0.1, 'emb': 4, 'hidden': [512, 256, 128], 'drop': 0.4, 'emb_drop': 0.05, 'smooth': 0.0, 'verbose': False, 'cross': 0, 'pairs': 0, 'pair_dim': 4, 'notes': 'MLP emb4 (cats+ratings+age/dist/delay bins) 512-256-128 drop0.4 wd0.1 AdamW OneCycle lr3e-3 bs4096 20ep, 3 seeds'}
+n cat cols 23 base 23
+  fold 0 seed 0: auc 0.95863 best_ep 18
+  fold 0 seed 1: auc 0.95855 best_ep 19
+  fold 0 seed 2: auc 0.95824 best_ep 17
+[gpu_nn_v1] fold 0: AUC 0.95865  (136s)
+  fold 1 seed 0: auc 0.95739 best_ep 17
+  fold 1 seed 1: auc 0.95744 best_ep 18
+  fold 1 seed 2: auc 0.95752 best_ep 15
+[gpu_nn_v1] fold 1: AUC 0.95762  (135s)
+  fold 2 seed 0: auc 0.95935 best_ep 18
+  fold 2 seed 1: auc 0.95931 best_ep 18
+  fold 2 seed 2: auc 0.95927 best_ep 16
+[gpu_nn_v1] fold 2: AUC 0.95948  (141s)
+  fold 3 seed 0: auc 0.95831 best_ep 19
+  fold 3 seed 1: auc 0.95823 best_ep 17
+  fold 3 seed 2: auc 0.95844 best_ep 17
+[gpu_nn_v1] fold 3: AUC 0.95850  (149s)
+  fold 4 seed 0: auc 0.95873 best_ep 19
+  fold 4 seed 1: auc 0.95880 best_ep 17
+  fold 4 seed 2: auc 0.95873 best_ep 16
+[gpu_nn_v1] fold 4: AUC 0.95893  (170s)
+[gpu_nn_v1] CV AUC 0.958610  folds [0.95865 0.95762 0.95948 0.9585  0.95893]
+corr with lgbm: 0.9978197642509992

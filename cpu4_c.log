@@ -1,0 +1,11 @@
+[cpu4_lgbm_var_k10] fold 0: 0.960817 iters 10299 (467s)
+[cpu4_lgbm_var_k10] fold 1: 0.960411 iters 10995 (381s)
+[cpu4_lgbm_var_k10] fold 2: 0.960171 iters 9777 (297s)
+[cpu4_lgbm_var_k10] fold 3: 0.958845 iters 8288 (285s)
+[cpu4_lgbm_var_k10] fold 4: 0.961256 iters 8651 (283s)
+[cpu4_lgbm_var_k10] fold 5: 0.961710 iters 15009 (517s)
+[cpu4_lgbm_var_k10] fold 6: 0.960298 iters 11781 (366s)
+[cpu4_lgbm_var_k10] fold 7: 0.961223 iters 10085 (352s)
+[cpu4_lgbm_var_k10] fold 8: 0.960244 iters 8428 (320s)
+[cpu4_lgbm_var_k10] fold 9: 0.961227 iters 13552 (455s)
+[cpu4_lgbm_var_k10] CV AUC 0.960616  folds [0.96061 0.95951 0.96148 0.96076 0.96073]

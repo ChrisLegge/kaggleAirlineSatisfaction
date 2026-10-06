@@ -1,0 +1,31 @@
+﻿{'name': 'gpu_v2_cat_numcat', 'folds': 'all', 'depth': 10, 'lr': 0.03, 'l2': 10.0, 'border': 254, 'ohe': 2, 'grow': 'Depthwise', 'min_leaf': 100, 'rs': 2.0, 'bag_temp': 1.0, 'cat_ratings': 1, 'max_ctr': 1, 'iters': 20000, 'od': 300, 'seed': 42, 'metric': 'AUC', 'v2': 1, 'fd_cat': 0, 'num_cat': 1, 'ref': 'feat_c3', 'mp': 25, 'notes': 'CatBoost GPU v2 + ratings & int numerics (Age,FD,delays) as str cats, Depthwise d10 min_leaf100 lr0.03 l2 10 rs2 border254 max_ctr1'}
+X shape (699635, 75) cats 23
+0:	test: 0.9577065	best: 0.9577065 (0)	total: 166ms	remaining: 55m 22s
+1000:	test: 0.9608707	best: 0.9609737 (703)	total: 1m 1s	remaining: 19m 28s
+bestTest = 0.96097368
+bestIteration = 703
+Shrink model to first 704 iterations.
+[gpu_v2_cat_numcat] fold 0: AUC 0.96097 iters 703 (76s)
+0:	test: 0.9565299	best: 0.9565299 (0)	total: 740ms	remaining: 4h 6m 36s
+1000:	test: 0.9598201	best: 0.9598896 (710)	total: 2m 26s	remaining: 46m 15s
+bestTest = 0.9598895907
+bestIteration = 710
+Shrink model to first 711 iterations.
+[gpu_v2_cat_numcat] fold 1: AUC 0.95989 iters 710 (161s)
+0:	test: 0.9584799	best: 0.9584799 (0)	total: 243ms	remaining: 1h 21m 4s
+bestTest = 0.961638093
+bestIteration = 632
+Shrink model to first 633 iterations.
+[gpu_v2_cat_numcat] fold 2: AUC 0.96164 iters 632 (91s)
+0:	test: 0.9579442	best: 0.9579442 (0)	total: 202ms	remaining: 1h 7m 12s
+bestTest = 0.9608362913
+bestIteration = 586
+Shrink model to first 587 iterations.
+[gpu_v2_cat_numcat] fold 3: AUC 0.96084 iters 586 (86s)
+0:	test: 0.9576344	best: 0.9576344 (0)	total: 231ms	remaining: 1h 16m 52s
+bestTest = 0.9607245922
+bestIteration = 592
+Shrink model to first 593 iterations.
+[gpu_v2_cat_numcat] fold 4: AUC 0.96072 iters 592 (78s)
+[gpu_v2_cat_numcat] CV AUC 0.960802  folds [0.96097 0.95989 0.96164 0.96084 0.96072]
+corr with feat_c3: 0.9988846114327717

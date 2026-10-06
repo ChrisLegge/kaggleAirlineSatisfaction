@@ -1,0 +1,5 @@
+base stack of 172 members: 0.962032
+gpu3_realmlp_raw_auxA            single 0.960959 maxcorr 0.9972 (pub_realmlp_fa_auxog) stack 0.962018 gain -0.000014 (folds +1/5, min -0.000034)
+gpu3_glm_pair                    single 0.958469 maxcorr 0.9847 (sach_xgb_raw) stack 0.962036 gain +0.000004 (folds +3/5, min -0.000008)
+gpu3_knn_k1000                   single 0.957656 maxcorr 0.9937 (sadam_e7_combo_cat) stack 0.962038 gain +0.000006 (folds +4/5, min -0.000005)
+ALL 3 candidates: stack 0.962048 gain +0.000016

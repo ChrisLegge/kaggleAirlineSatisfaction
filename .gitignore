@@ -1,0 +1,41 @@
+# Credentials - never commit
+kaggle.json
+.kaggle/
+access_token
+.env
+
+# Competition / original data (Kaggle rules: don't redistribute; see README for download steps)
+playground-series-s6e10/
+playground-series-s6e10.zip
+originalData/
+*.zip
+
+# Large generated artifacts
+preds/*.npy
+preds/*.pkl
+experiments/*.db
+experiments/public_notebooks/*/
+catboost_info/
+
+# Python / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+Thumbs.db
+desktop.ini
+
+# Other people's published predictions (download via import_public*.py instructions instead)
+experiments/public_outputs/
+# Local tool settings / scratch
+.claude/
+scratch_aux/
+members_*.txt
+*.parquet
+experiments/catboost_info_gpu/
+# Model outputs / checkpoints / local package installs
+preds/
+experiments/gpu3/tabpfn_lib/
+*.safetensors
+*.ckpt
+*.pt
+lightning_logs/

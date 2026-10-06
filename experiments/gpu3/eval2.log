@@ -1,0 +1,5 @@
+base stack of 172 members: 0.962023
+gpu3_cat_fdctr3                  single 0.960862 maxcorr 0.9982 (gpu_v2_cat_numcat) stack 0.962024 gain +0.000000 (folds +2/5, min -0.000031)
+gpu3_glm_tri                     single 0.958125 maxcorr 0.9845 (sach_xgb_raw) stack 0.962034 gain +0.000010 (folds +2/5, min -0.000005)
+gpu3_fwfm                        single 0.957203 maxcorr 0.9730 (sach_xgb_route) stack 0.962031 gain +0.000007 (folds +3/5, min -0.000040)
+ALL 3 candidates: stack 0.962036 gain +0.000013

@@ -1,0 +1,9 @@
+{'name': 'gpu3_glm_pair', 'folds': 'all', 'C': 0.05, 'pairs': 1, 'triples': 0, 'min_count': 5, 'notes': ''}
+fields 240
+X (999479, 24770) nnz/row 240
+[gpu3_glm_pair] fold 0: AUC 0.95849 iters [355] (122s)
+[gpu3_glm_pair] fold 1: AUC 0.95759 iters [321] (95s)
+[gpu3_glm_pair] fold 2: AUC 0.95937 iters [327] (96s)
+[gpu3_glm_pair] fold 3: AUC 0.95848 iters [343] (108s)
+[gpu3_glm_pair] fold 4: AUC 0.95842 iters [333] (97s)
+[gpu3_glm_pair] CV AUC 0.958468  folds [0.95849 0.95759 0.95937 0.95848 0.95842]

@@ -1,0 +1,25 @@
+﻿{'name': 'gpu_v2_nn_plr', 'folds': 'all', 'seeds': '0,1,2', 'epochs': 12, 'patience': 20, 'bs': 4096, 'lr': 0.003, 'wd': 0.1, 'emb': 4, 'hidden': [512, 256, 128], 'drop': 0.4, 'emb_drop': 0.05, 'smooth': 0.0, 'verbose': False, 'cross': 0, 'pairs': 0, 'pair_dim': 4, 'v2': 1, 'plr': 8, 'plr_sigma': 0.3, 'ref': 'feat_c3', 'fd_emb': 0, 'notes': 'MLP v2 feats: emb4 cats/ratings/bins + standardised v2 numerics + PLR(8, sigma0.3), 512-256-128 drop0.4 wd0.1 OneCycle lr3e-3 bs4096 12ep, 3 seeds'}
+v2 extra cols ['fd_n', 'fd_m_Inflight', 'fd_m_Departur', 'fd_m_Ease of ', 'fd_m_Gate loc', 'fd_m_Food and', 'fd_m_Online b', 'fd_m_Seat com', 'fd_m_On-board', 'fd_m_Leg room', 'fd_m_Baggage ', 'fd_m_Checkin ', 'fd_m_Cleanlin', 'fd_m_Age', 'fd_age_std', 'c_Flig', 'fd_o_te', 'fd_o_n', 'orig_pred', 'Age_cnt', 'Flight_cnt', 'Depart_cnt', 'Arriva_cnt', 'orig_logit']
+n cat cols 23 base 23
+  fold 0 seed 0: auc 0.96031 best_ep 11
+  fold 0 seed 1: auc 0.96036 best_ep 10
+  fold 0 seed 2: auc 0.96046 best_ep 9
+[gpu_v2_nn_plr] fold 0: AUC 0.96057  (104s)
+  fold 1 seed 0: auc 0.95919 best_ep 11
+  fold 1 seed 1: auc 0.95929 best_ep 9
+  fold 1 seed 2: auc 0.95920 best_ep 11
+[gpu_v2_nn_plr] fold 1: AUC 0.95941  (103s)
+  fold 2 seed 0: auc 0.96094 best_ep 11
+  fold 2 seed 1: auc 0.96095 best_ep 11
+  fold 2 seed 2: auc 0.96097 best_ep 11
+[gpu_v2_nn_plr] fold 2: AUC 0.96112  (129s)
+  fold 3 seed 0: auc 0.96060 best_ep 11
+  fold 3 seed 1: auc 0.96042 best_ep 10
+  fold 3 seed 2: auc 0.96039 best_ep 11
+[gpu_v2_nn_plr] fold 3: AUC 0.96063  (131s)
+  fold 4 seed 0: auc 0.96027 best_ep 10
+  fold 4 seed 1: auc 0.96023 best_ep 11
+  fold 4 seed 2: auc 0.96037 best_ep 10
+[gpu_v2_nn_plr] fold 4: AUC 0.96048  (129s)
+[gpu_v2_nn_plr] CV AUC 0.960438  folds [0.96057 0.95941 0.96112 0.96063 0.96048]
+corr with feat_c3: 0.9983696197815781

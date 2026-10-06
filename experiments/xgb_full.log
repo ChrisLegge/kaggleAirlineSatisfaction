@@ -1,0 +1,22 @@
+﻿{'name': 'gpu_v2_xgb_lg127', 'folds': 'all', 'depth': 0, 'mcw': 20.0, 'gamma': 0, 'lr': 0.02, 'sub': 0.8, 'cbt': 0.5, 'cbn': 1.0, 'lam': 2.0, 'alpha': 0.0, 'max_bin': 256, 'grow': 'lossguide', 'leaves': 127, 'cat_ratings': 0, 'od': 300, 'notes': 'XGB GPU v2 feats, lossguide max_leaves127 mcw20 lr0.02 sub0.8 cbt0.5 lam2, QuantileDMatrix', 'v2': 1, 'ref': 'feat_c3'}
+X shape (699635, 58)
+[0]	va-auc:0.95633
+[1000]	va-auc:0.96113
+[1120]	va-auc:0.96112
+[gpu_v2_xgb_lg127] fold 0: AUC 0.96120 iters 820 (84s)
+[0]	va-auc:0.95508
+[1000]	va-auc:0.95987
+[1040]	va-auc:0.95985
+[gpu_v2_xgb_lg127] fold 1: AUC 0.95994 iters 740 (76s)
+[0]	va-auc:0.95714
+[1000]	va-auc:0.96156
+[1022]	va-auc:0.96155
+[gpu_v2_xgb_lg127] fold 2: AUC 0.96164 iters 722 (74s)
+[0]	va-auc:0.95656
+[884]	va-auc:0.96083
+[gpu_v2_xgb_lg127] fold 3: AUC 0.96092 iters 584 (64s)
+[0]	va-auc:0.95628
+[819]	va-auc:0.96066
+[gpu_v2_xgb_lg127] fold 4: AUC 0.96079 iters 519 (58s)
+[gpu_v2_xgb_lg127] CV AUC 0.960891  folds [0.9612  0.95994 0.96164 0.96092 0.96079]
+corr with feat_c3: 0.9994479947971373

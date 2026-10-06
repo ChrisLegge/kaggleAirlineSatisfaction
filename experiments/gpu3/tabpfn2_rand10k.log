@@ -1,0 +1,15 @@
+{'name': 'gpu3_tabpfn2_rand10k', 'folds': 'all', 'k': 1, 'ctx': 10000, 'n_est': 2, 'max_clusters': 0, 'extra': 1, 'test': 1, 'seed': 0, 'notes': 'TabPFN v2 (2.0.9) random 10k fold-train context, n_est2, raw21 + fd_o_te/fd_n/orig_pred logit; test uses full-train random 10k context'}
+kmeans 0s, cluster sizes min/med/max 999479 999479 999479
+   cluster 0/1 ctx 10000 q 139927 t 332s mem 0.53GB
+[gpu3_tabpfn2_rand10k] fold 0: AUC 0.95634 ref_feat_c3 0.96101 (332s)
+   cluster 0/1 ctx 10000 q 139927 t 330s mem 0.53GB
+[gpu3_tabpfn2_rand10k] fold 1: AUC 0.95444 ref_feat_c3 0.95974 (330s)
+   cluster 0/1 ctx 10000 q 139927 t 330s mem 0.53GB
+[gpu3_tabpfn2_rand10k] fold 2: AUC 0.95638 ref_feat_c3 0.96138 (330s)
+   cluster 0/1 ctx 10000 q 139927 t 330s mem 0.53GB
+[gpu3_tabpfn2_rand10k] fold 3: AUC 0.95575 ref_feat_c3 0.96079 (330s)
+   cluster 0/1 ctx 10000 q 139927 t 330s mem 0.53GB
+[gpu3_tabpfn2_rand10k] fold 4: AUC 0.95599 ref_feat_c3 0.96069 (330s)
+   cluster 0/1 ctx 10000 q 299844 t 701s mem 0.53GB
+test done 701s
+[gpu3_tabpfn2_rand10k] CV AUC 0.955588  folds [0.95634 0.95444 0.95638 0.95575 0.95599]

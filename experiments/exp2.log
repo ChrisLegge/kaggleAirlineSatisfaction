@@ -1,0 +1,30 @@
+dedup 0.9995: 173 -> 154 dropped: ['lgbmtune_v2_t34', 'lgbmtune_v2_t34_seeds123', 'mega_realmlp_fa4_s42', 'mega_realmlp_fa4_s7', 'mega_realmlp_og_s42', 'mega_realmlp_s42', 'mega_realmlp_s7', 'pub_realmlp_fa', 'pub_realmlp_fa_s7', 'pub_realmlp_v4_s2', 'pub_realmlp_vb_aux_s2', 'sach_rmlp_v4aux_k10', 'sadam_e13_realmlp_realmlp', 'sadam_e14_seed2026', 'sadam_e14_seed7', 'sadam_e14_seed77', 'sadam_e14_seed777', 'sadam_e5_origpred_cat', 'sadam_e7_combo_cat']
+  k=  1 +sach_rmlp_v4aux_k10s2            proxy 0.961414 cv 0.961414
+  k=  2 +pub_tabpfn_catfd10               proxy 0.961726 cv 0.961727
+  k=  3 +bp_lgbm                          proxy 0.961805 cv 0.961807
+  k=  4 +pub_tabpfn_te4                   proxy 0.961851 cv 0.961855
+  k=  5 +bp_realmlp                       proxy 0.961882 cv 0.961878
+  k=  6 +pub_realmlp_pub_s1               proxy 0.961910 cv 0.961923
+  k=  7 +pub_glm_xgb                      proxy 0.961953 cv 0.961950
+  k=  8 +sach_cat_ctr_auxall_k10          proxy 0.961968 cv 0.961970
+  k=  9 +gpu3_realmlp_raw_auxA            proxy 0.961986 cv 0.961994
+  k= 10 +mega_cat_ctr                     proxy 0.962006 cv 0.961999
+  k= 11 +golem_g                          proxy 0.962005 cv 0.962004
+  k= 12 +pub_tabpfn_catfd_s1              proxy 0.962013 cv 0.962013
+  k= 13 +golem_j                          proxy 0.962022 cv 0.962014
+  k= 14 +sadam_e12_route_lgb              proxy 0.962020 cv 0.962012
+  k= 15 +bp_cat                           proxy 0.962017 cv 0.962010
+  k= 16 +golem_m                          proxy 0.962015 cv 0.962011
+  k= 17 +sach_rmlp_raw_aux_k10            proxy 0.962016 cv 0.962024
+  k= 18 +pub_tabpfn_catfd                 proxy 0.962029 cv 0.962027
+  k= 19 +golem_k                          proxy 0.962032 cv 0.962027
+  k= 20 +pub_xgb_auxev                    proxy 0.962031 cv 0.962027
+  k= 21 +bp_xgb                           proxy 0.962030 cv 0.962027
+  k= 22 +pub_glm6_xgb                     proxy 0.962030 cv 0.962025
+  k= 23 +mega_lgb                         proxy 0.962029 cv 0.962026
+  k= 24 +mega_lgb_route                   proxy 0.962029 cv 0.962023
+  k= 25 +mega_cat                         proxy 0.962027 cv 0.962023
+  k= 26 +golem_f                          proxy 0.962026 cv 0.962023
+  k= 27 +pub_tabpfn_full_raw_s1           proxy 0.962025 cv 0.962024
+  k= 28 +sach_lgb_B_k10                   proxy 0.962027 cv 0.962024
+time 884.2855403423309

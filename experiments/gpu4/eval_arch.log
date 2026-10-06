@@ -1,0 +1,2 @@
+base 184 members C=0.02: 0.962087
++[gpu4_rmlp_raw_aux_k10_arch] single(first) 0.961243 stack 0.962082 gain -0.000005 folds+ 1/5 min -0.000015

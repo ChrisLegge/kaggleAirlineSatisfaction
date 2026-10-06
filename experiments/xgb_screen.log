@@ -1,0 +1,5 @@
+﻿{'name': 'gpu_xgb_dev', 'folds': '0', 'depth': 8, 'mcw': 5, 'gamma': 0, 'lr': 0.03, 'sub': 0.8, 'cbt': 0.5, 'cbn': 1.0, 'lam': 2.0, 'alpha': 0.0, 'max_bin': 256, 'grow': 'depthwise', 'leaves': 0, 'cat_ratings': 0, 'od': 300, 'notes': '', 'v2': 1, 'ref': 'lgbm'}
+X shape (699635, 58)
+[0]	va-auc:0.95695
+[778]	va-auc:0.96091
+[gpu_xgb_dev] fold 0: AUC 0.96099 iters 478 (23s)

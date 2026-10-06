@@ -1,0 +1,5 @@
+base stack of 187 members: 0.962084
+cpu4_lgbm_t34_k10                single 0.961067 maxcorr 0.9995 (lgbmtune_v2_t34_4seeds) stack 0.962071 gain -0.000013 (folds +3/5, min -0.000082)
+cpu4_lgbm_t34_auxA_k10           single 0.961122 maxcorr 0.9980 (gpu3_cat_numcat_auxA_k10) stack 0.962082 gain -0.000002 (folds +2/5, min -0.000013)
+cpu4_lgbm_var_k10                single 0.960618 maxcorr 0.9978 (lgbmtune_v2_t34_4seeds) stack 0.962084 gain +0.000000 (folds +3/5, min -0.000003)
+ALL 3 candidates: stack 0.962091 gain +0.000007

@@ -1,0 +1,102 @@
+﻿=== --epochs 20 --patience 5
+
+  fold 0 seed 0: auc 0.95792 best_ep 9
+[gpu_nn_dev] fold 0: AUC 0.95792  (33s)
+
+
+=== --epochs 20 --emb 16 --hidden 1024 512 256 --drop 0.3
+
+  fold 0 seed 0: auc 0.95821 best_ep 8
+[gpu_nn_dev] fold 0: AUC 0.95821  (34s)
+
+
+=== --epochs 20 --lr 2e-3 --bs 2048
+
+  fold 0 seed 0: auc 0.95803 best_ep 11
+[gpu_nn_dev] fold 0: AUC 0.95803  (31s)
+
+
+=== --epochs 20 --wd 1e-2 --drop 0.3
+
+  fold 0 seed 0: auc 0.95821 best_ep 18
+[gpu_nn_dev] fold 0: AUC 0.95821  (42s)
+
+
+=== --epochs 20 --bs 8192 --lr 5e-3
+
+  fold 0 seed 0: auc 0.95806 best_ep 13
+[gpu_nn_dev] fold 0: AUC 0.95806  (26s)
+
+
+=== --epochs 20 --hidden 256 256 --drop 0.1 --emb_drop 0.0
+
+  fold 0 seed 0: auc 0.95758 best_ep 9
+[gpu_nn_dev] fold 0: AUC 0.95758  (34s)
+
+
+=== --epochs 15 --patience 15 --wd 1e-2 --drop 0.3 --cross 3
+
+  fold 0 seed 0: auc 0.95684 best_ep 3
+[gpu_nn_dev] fold 0: AUC 0.95684  (41s)
+
+
+=== --epochs 15 --patience 15 --wd 1e-2 --drop 0.3 --pairs 1
+
+  fold 0 seed 0: auc 0.95762 best_ep 8
+[gpu_nn_dev] fold 0: AUC 0.95762  (156s)
+
+
+=== --epochs 15 --patience 15 --wd 1e-2 --drop 0.3 --pairs 1 --cross 2
+
+  fold 0 seed 0: auc 0.95590 best_ep 1
+[gpu_nn_dev] fold 0: AUC 0.95590  (183s)
+
+
+=== --epochs 20 --patience 20 --wd 5e-2 --drop 0.4 --emb 4
+
+  fold 0 seed 0: auc 0.95859 best_ep 18
+[gpu_nn_dev] fold 0: AUC 0.95859  (49s)
+
+
+=== --epochs 20 --patience 20 --wd 1e-2 --drop 0.3 --emb 16 --emb_drop 0.15 --hidden 1024 512 256
+
+  fold 0 seed 0: auc 0.95842 best_ep 13
+[gpu_nn_dev] fold 0: AUC 0.95842  (59s)
+
+
+=== --epochs 30 --patience 30 --wd 1e-2 --drop 0.3 --lr 1e-3 --bs 2048
+
+  fold 0 seed 0: auc 0.95823 best_ep 24
+[gpu_nn_dev] fold 0: AUC 0.95823  (59s)
+
+
+=== --epochs 20 --patience 20 --wd 3e-2 --drop 0.35 --hidden 512 512 256 128
+
+  fold 0 seed 0: auc 0.95856 best_ep 16
+[gpu_nn_dev] fold 0: AUC 0.95856  (52s)
+
+
+=== --epochs 20 --patience 20 --wd 1e-1 --drop 0.4 --emb 4
+
+  fold 0 seed 0: auc 0.95863 best_ep 18
+[gpu_nn_dev] fold 0: AUC 0.95863  (46s)
+
+
+=== --epochs 20 --patience 20 --wd 5e-2 --drop 0.5 --emb 4 --hidden 1024 512 256
+
+  fold 0 seed 0: auc 0.95849 best_ep 18
+[gpu_nn_dev] fold 0: AUC 0.95849  (57s)
+
+
+=== --epochs 30 --patience 30 --wd 5e-2 --drop 0.4 --emb 4
+
+  fold 0 seed 0: auc 0.95860 best_ep 26
+[gpu_nn_dev] fold 0: AUC 0.95860  (64s)
+
+
+=== --epochs 20 --patience 20 --wd 5e-2 --drop 0.4 --emb 4 --emb_drop 0.15
+
+  fold 0 seed 0: auc 0.95850 best_ep 19
+[gpu_nn_dev] fold 0: AUC 0.95850  (48s)
+
+

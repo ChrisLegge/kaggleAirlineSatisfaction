@@ -1,0 +1,10 @@
+{'name': 'gpu4_cat_aux_k10_d8', 'folds': 'all', 'depth': 8, 'lr': 0.04, 'l2': 10.0, 'border': 254, 'ohe': 2, 'grow': 'SymmetricTree', 'min_leaf': 1, 'rs': 1.0, 'bag_temp': 1.0, 'cat_ratings': 1, 'max_ctr': 2, 'iters': 20000, 'od': 300, 'seed': 7, 'metric': 'AUC', 'v2': 1, 'fd_cat': 0, 'num_cat': 1, 'ref': 'feat_c3', 'mp': 25, 'notes': 'CatBoost GPU v2+auxA, ratings & int numerics as cats, Symmetric d8 lr0.04 l2 10 max_ctr2, seed7, 10-fold split_seed41', 'k10': 1, 'split_seed': 41, 'aux': 1}
+X shape (699635, 105) cats 23
+0:	test: 0.9533158	best: 0.9533158 (0)	total: 371ms	remaining: 2h 3m 32s
+1000:	test: 0.9609361	best: 0.9609379 (999)	total: 4m 24s	remaining: 1h 23m 41s
+2000:	test: 0.9610993	best: 0.9611154 (1754)	total: 9m 13s	remaining: 1h 23m 2s
+bestTest = 0.9611154199
+bestIteration = 1754
+Shrink model to first 1755 iterations.
+[gpu4_cat_aux_k10_d8] fold 0: AUC 0.96112 iters 1754 (596s)
+0:	test: 0.9529517	best: 0.9529517 (0)	total: 304ms	remaining: 1h 41m 29s

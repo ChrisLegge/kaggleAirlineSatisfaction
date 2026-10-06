@@ -1,0 +1,2 @@
+python -u experiments/lgbm_optuna.py cv --v2 --study lgbm_v2 --trial 34 --lr 0.02 --seeds 1 2 3 --name lgbmtune_v2_t34_seeds123 --notes "v2 feats, trial 34, seeds 1-3" *> experiments/cv_v2_t34_seeds.log
+python -u experiments/lgbm_optuna.py cv --v2 --study lgbm_v2 --trial 34 --params '{\"num_leaves\": 15, \"max_depth\": 4, \"min_child_samples\": 50}' --lr 0.05 --es 400 --name lgbmtune_v2_shallow --notes "v2 feats, t34 but depth4/15 leaves" *> experiments/cv_v2_shallow.log

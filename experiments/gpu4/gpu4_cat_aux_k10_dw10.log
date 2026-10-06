@@ -1,0 +1,60 @@
+{'name': 'gpu4_cat_aux_k10_dw10', 'folds': 'all', 'depth': 10, 'lr': 0.03, 'l2': 10.0, 'border': 254, 'ohe': 2, 'grow': 'Depthwise', 'min_leaf': 100, 'rs': 2.0, 'bag_temp': 1.0, 'cat_ratings': 1, 'max_ctr': 1, 'iters': 20000, 'od': 300, 'seed': 11, 'metric': 'AUC', 'v2': 1, 'fd_cat': 0, 'num_cat': 1, 'ref': 'feat_c3', 'mp': 25, 'notes': 'CatBoost GPU v2+auxA numcat Depthwise d10 (gpu3 config), seed11, 10-fold split_seed59', 'k10': 1, 'split_seed': 59, 'aux': 1}
+X shape (699635, 105) cats 23
+0:	test: 0.9571576	best: 0.9571576 (0)	total: 141ms	remaining: 47m 4s
+bestTest = 0.9604822993
+bestIteration = 461
+Shrink model to first 462 iterations.
+[gpu4_cat_aux_k10_dw10] fold 0: AUC 0.96048 iters 461 (57s)
+0:	test: 0.9582453	best: 0.9582453 (0)	total: 226ms	remaining: 1h 15m 10s
+bestTest = 0.961640209
+bestIteration = 477
+Shrink model to first 478 iterations.
+[gpu4_cat_aux_k10_dw10] fold 1: AUC 0.96164 iters 477 (55s)
+0:	test: 0.9571130	best: 0.9571130 (0)	total: 203ms	remaining: 1h 7m 32s
+1000:	test: 0.9607332	best: 0.9607967 (864)	total: 58s	remaining: 18m 21s
+bestTest = 0.9607967138
+bestIteration = 864
+Shrink model to first 865 iterations.
+[gpu4_cat_aux_k10_dw10] fold 2: AUC 0.96080 iters 864 (78s)
+0:	test: 0.9560002	best: 0.9560002 (0)	total: 242ms	remaining: 1h 20m 44s
+1000:	test: 0.9594701	best: 0.9595699 (733)	total: 56.9s	remaining: 18m
+bestTest = 0.9595698714
+bestIteration = 733
+Shrink model to first 734 iterations.
+[gpu4_cat_aux_k10_dw10] fold 3: AUC 0.95957 iters 733 (69s)
+0:	test: 0.9587987	best: 0.9587987 (0)	total: 240ms	remaining: 1h 20m 9s
+1000:	test: 0.9616331	best: 0.9617416 (749)	total: 57.7s	remaining: 18m 14s
+bestTest = 0.9617415667
+bestIteration = 749
+Shrink model to first 750 iterations.
+[gpu4_cat_aux_k10_dw10] fold 4: AUC 0.96174 iters 749 (71s)
+0:	test: 0.9581900	best: 0.9581900 (0)	total: 211ms	remaining: 1h 10m 14s
+1000:	test: 0.9617357	best: 0.9617842 (787)	total: 56.8s	remaining: 17m 58s
+bestTest = 0.9617842436
+bestIteration = 787
+Shrink model to first 788 iterations.
+[gpu4_cat_aux_k10_dw10] fold 5: AUC 0.96178 iters 787 (72s)
+0:	test: 0.9585278	best: 0.9585278 (0)	total: 195ms	remaining: 1h 4m 54s
+bestTest = 0.9616686702
+bestIteration = 558
+Shrink model to first 559 iterations.
+[gpu4_cat_aux_k10_dw10] fold 6: AUC 0.96167 iters 558 (59s)
+0:	test: 0.9576705	best: 0.9576705 (0)	total: 211ms	remaining: 1h 10m 21s
+1000:	test: 0.9607104	best: 0.9608589 (730)	total: 57.3s	remaining: 18m 7s
+bestTest = 0.9608589411
+bestIteration = 730
+Shrink model to first 731 iterations.
+[gpu4_cat_aux_k10_dw10] fold 7: AUC 0.96086 iters 730 (69s)
+0:	test: 0.9573629	best: 0.9573629 (0)	total: 209ms	remaining: 1h 9m 46s
+1000:	test: 0.9604741	best: 0.9605438 (714)	total: 56.7s	remaining: 17m 56s
+bestTest = 0.9605438113
+bestIteration = 714
+Shrink model to first 715 iterations.
+[gpu4_cat_aux_k10_dw10] fold 8: AUC 0.96054 iters 714 (68s)
+0:	test: 0.9580841	best: 0.9580841 (0)	total: 195ms	remaining: 1h 4m 57s
+bestTest = 0.961614728
+bestIteration = 413
+Shrink model to first 414 iterations.
+[gpu4_cat_aux_k10_dw10] fold 9: AUC 0.96161 iters 413 (51s)
+[gpu4_cat_aux_k10_dw10] CV AUC 0.961054  folds [0.96106 0.96018 0.96176 0.96126 0.96105]
+corr with feat_c3: 0.9982126005192602

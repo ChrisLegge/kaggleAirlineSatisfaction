@@ -1,0 +1,16 @@
+14:02:14 START gpu4_rmlp_raw_aux_k10_s3
+14:26:00 END gpu4_rmlp_raw_aux_k10_s3 rc=0 [gpu4_rmlp_raw_aux_k10_s3] CV AUC 0.961194  folds [0.96127 0.96045 0.96199 0.96129 0.96098]
+14:26:00 START gpu4_rmlp_raw_aux_k10_e6
+15:03:05 END gpu4_rmlp_raw_aux_k10_e6 rc=0 [gpu4_rmlp_raw_aux_k10_e6] CV AUC 0.960990  folds [0.96116 0.96012 0.9618  0.96134 0.96089]
+15:03:06 START gpu4_rmlp_raw_aux_k10_arch
+15:28:00 END gpu4_rmlp_raw_aux_k10_arch rc=0 [gpu4_rmlp_raw_aux_k10_arch] CV AUC 0.961239  folds [0.96139 0.96047 0.96195 0.96138 0.96102]
+15:28:01 START gpu4_cat_aux_k10_d8
+15:43:50 END gpu4_cat_aux_k10_d8 rc=0 
+15:43:50 START gpu4_xgb_v2aux_k10
+15:57:31 END gpu4_xgb_v2aux_k10 rc=0 [gpu4_xgb_v2aux_k10] CV AUC 0.961074  folds [0.96128 0.96009 0.96171 0.96124 0.96107]
+15:57:31 START gpu4_xgb_v2aux_k10_d8
+16:18:05 END gpu4_xgb_v2aux_k10_d8 rc=0 [gpu4_xgb_v2aux_k10_d8] CV AUC 0.960941  folds [0.96114 0.96004 0.96164 0.96099 0.96093]
+16:18:06 START gpu4_cat_noaux_k10_d6
+16:29:57 END gpu4_cat_noaux_k10_d6 rc=0 [gpu4_cat_noaux_k10_d6] CV AUC 0.960937  folds [0.96102 0.96001 0.96159 0.96118 0.96089]
+16:29:58 START gpu4_cat_aux_k10_dw10
+16:40:56 END gpu4_cat_aux_k10_dw10 rc=0 [gpu4_cat_aux_k10_dw10] CV AUC 0.961054  folds [0.96106 0.96018 0.96176 0.96126 0.96105]

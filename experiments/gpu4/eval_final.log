@@ -1,0 +1,5 @@
+base 184 members C=0.02: 0.962081
++[gpu4_cat_aux_k10_dw10] single(first) 0.961062 stack 0.962082 gain +0.000001 folds+ 3/5 min -0.000009
++[gpu4_rmlp_raw_aux_k10_s3,gpu4_rmlp_raw_aux_k10_e6,gpu4_rmlp_raw_aux_k10_arch,gpu4_xgb_v2aux_k10,gpu4_xgb_v2aux_k10_d8,gpu4_cat_noaux_k10_d6,gpu4_cat_aux_k10_dw10] single(first) 0.961197 stack 0.962088 gain +0.000006 folds+ 4/5 min -0.000005
+base 184 members C=0.05: 0.962079
++[gpu4_rmlp_raw_aux_k10_s3,gpu4_rmlp_raw_aux_k10_e6,gpu4_rmlp_raw_aux_k10_arch,gpu4_xgb_v2aux_k10,gpu4_xgb_v2aux_k10_d8,gpu4_cat_noaux_k10_d6,gpu4_cat_aux_k10_dw10] single(first) 0.961197 stack 0.962075 gain -0.000004 folds+ 2/5 min -0.000040

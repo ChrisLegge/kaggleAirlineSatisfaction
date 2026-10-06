@@ -1,0 +1,34 @@
+{'name': 'gpu3_cat_fdctr3', 'folds': 'all', 'depth': 8, 'lr': 0.05, 'l2': 10.0, 'border': 254, 'ohe': 4, 'grow': 'SymmetricTree', 'min_leaf': 1, 'rs': 1.0, 'bag_temp': 1.0, 'cat_ratings': 0, 'max_ctr': 3, 'iters': 20000, 'od': 300, 'seed': 42, 'metric': 'AUC', 'v2': 1, 'fd_cat': 1, 'num_cat': 0, 'ref': 'feat_c3', 'mp': 25, 'notes': 'CatBoost GPU v2, FD as only CTR categorical (base cats one-hot, ohe4), max_ctr_complexity 3, depth8 lr0.05 l2 10'}
+X shape (699635, 59) cats 7
+0:	test: 0.9528258	best: 0.9528258 (0)	total: 134ms	remaining: 44m 47s
+1000:	test: 0.9609552	best: 0.9609686 (970)	total: 1m 17s	remaining: 24m 37s
+bestTest = 0.9609751701
+bestIteration = 1110
+Shrink model to first 1111 iterations.
+[gpu3_cat_fdctr3] fold 0: AUC 0.96098 iters 1110 (114s)
+0:	test: 0.9509468	best: 0.9509468 (0)	total: 87ms	remaining: 28m 59s
+1000:	test: 0.9598932	best: 0.9598932 (1000)	total: 1m 18s	remaining: 24m 52s
+bestTest = 0.9599525034
+bestIteration = 1154
+Shrink model to first 1155 iterations.
+[gpu3_cat_fdctr3] fold 1: AUC 0.95995 iters 1154 (121s)
+0:	test: 0.9536214	best: 0.9536214 (0)	total: 79.4ms	remaining: 26m 27s
+1000:	test: 0.9615419	best: 0.9615419 (1000)	total: 1m 20s	remaining: 25m 22s
+bestTest = 0.9615713358
+bestIteration = 1095
+Shrink model to first 1096 iterations.
+[gpu3_cat_fdctr3] fold 2: AUC 0.96157 iters 1095 (118s)
+0:	test: 0.9522193	best: 0.9522193 (0)	total: 69.9ms	remaining: 23m 17s
+1000:	test: 0.9609483	best: 0.9609497 (998)	total: 1m 18s	remaining: 24m 58s
+bestTest = 0.9609659314
+bestIteration = 1052
+Shrink model to first 1053 iterations.
+[gpu3_cat_fdctr3] fold 3: AUC 0.96097 iters 1052 (132s)
+0:	test: 0.9523998	best: 0.9523998 (0)	total: 69.4ms	remaining: 23m 8s
+1000:	test: 0.9608259	best: 0.9608471 (838)	total: 1m 16s	remaining: 24m 12s
+bestTest = 0.9608470798
+bestIteration = 838
+Shrink model to first 839 iterations.
+[gpu3_cat_fdctr3] fold 4: AUC 0.96085 iters 838 (91s)
+[gpu3_cat_fdctr3] CV AUC 0.960856  folds [0.96098 0.95995 0.96157 0.96097 0.96085]
+corr with feat_c3: 0.9991842394598156

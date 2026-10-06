@@ -1,0 +1,65 @@
+﻿=== --depth 8 --lr 0.06 --l2 3 --border 254
+{'name': 'gpu_cat_dev', 'folds': '0', 'depth': 8, 'lr': 0.06, 'l2': 3.0, 'border': 254, 'ohe': 2, 'grow': 'SymmetricTree', 'min_leaf': 1, 'rs': 1.0, 'bag_temp': 1.0, 'cat_ratings': 1, 'max_ctr': None, 'iters': 20000, 'od': 300, 'seed': 42, 'metric': 'AUC', 'mp': 25, 'notes': ''}
+=== --depth 8 --lr 0.06 --l2 3
+
+[gpu_cat_dev] fold 0: AUC 0.95859 iters 1371 (75s)
+
+
+=== --depth 10 --lr 0.05 --l2 5
+
+[gpu_cat_dev] fold 0: AUC 0.95840 iters 780 (97s)
+
+
+=== --depth 6 --lr 0.08 --l2 3
+
+[gpu_cat_dev] fold 0: AUC 0.95850 iters 1504 (66s)
+
+
+=== --depth 10 --lr 0.05 --l2 5 --grow Depthwise --min_leaf 100
+
+[gpu_cat_dev] fold 0: AUC 0.95883 iters 477 (64s)
+
+
+=== --depth 8 --lr 0.06 --l2 10 --rs 2
+
+[gpu_cat_dev] fold 0: AUC 0.95870 iters 1588 (87s)
+
+
+=== --depth 10 --lr 0.03 --l2 10 --rs 2 --grow Depthwise --min_leaf 100
+
+[gpu_cat_dev] fold 0: AUC 0.95890 iters 698 (69s)
+
+
+=== --depth 12 --lr 0.04 --l2 10 --grow Depthwise --min_leaf 200
+
+[gpu_cat_dev] fold 0: AUC 0.95860 iters 300 (47s)
+
+
+=== --depth 10 --lr 0.05 --l2 10 --rs 2 --grow Depthwise --min_leaf 300
+
+[gpu_cat_dev] fold 0: AUC 0.95878 iters 489 (51s)
+
+
+=== --depth 10 --lr 0.05 --l2 5 --grow Lossguide --min_leaf 100
+
+[gpu_cat_dev] fold 0: AUC 0.95853 iters 1513 (79s)
+
+
+=== v2 --cat_ratings 1
+
+X shape (699635, 71) cats 19
+[gpu_cat_dev] fold 0: AUC 0.96101 iters 537 (59s)
+
+
+=== v2 --cat_ratings 0
+
+X shape (699635, 58) cats 6
+[gpu_cat_dev] fold 0: AUC 0.96075 iters 388 (44s)
+
+
+=== v2 --cat_ratings 1 --fd_cat 1
+
+X shape (699635, 72) cats 20
+[gpu_cat_dev] fold 0: AUC 0.96093 iters 468 (54s)
+
+

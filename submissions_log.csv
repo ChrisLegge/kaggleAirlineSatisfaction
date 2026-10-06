@@ -1,0 +1,8 @@
+time,file,cv_auc,public_lb,notes
+2026-10-05T18:32,lgbm_baseline.csv,0.958864,0.95849,LightGBM raw features
+2026-10-05T19:10,blend_lgbm_xgb_cat.csv,0.95898,0.95841,rank blend of LGBM/XGB/CatBoost v1 features
+2026-10-05T20:30,interim_featc3_blend.csv,0.960842,0.96047,LogReg stack: feat_c3 (Flight Distance group features) + v1 models
+2026-10-05T22:25,stack_lr_all_v1.csv,0.961920,0.96160,LogReg stack of 48 public goodpjw2008 members + 12 own members
+2026-10-05T23:10,stack_lr_v2_nonaji.csv,0.961989,0.96164,LogReg stack of 125 members: own + public OOF libraries (goodpjw2008 sachith7 megayak dariushafshar arhancanli12)
+2026-10-06T11:20,stack_v3_lr_c002_all175.csv,0.962049,0.96173,LogReg C=0.02 on 175 members incl. busyaprime (kratosyan) + sadamtorres public OOF
+2026-10-06T14:01,stack_v4_lr_c002_all184.csv,0.962079,0.96177,LogReg C=0.02 on 184 members incl. own 10-fold RealMLP/CatBoost + aux features

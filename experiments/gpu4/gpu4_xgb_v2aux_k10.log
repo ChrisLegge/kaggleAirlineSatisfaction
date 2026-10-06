@@ -1,0 +1,13 @@
+{'name': 'gpu4_xgb_v2aux_k10', 'folds': 'all', 'ksplit': 2, 'split_seed': 31, 'leaves': 127, 'mcw': 20, 'lr': 0.02, 'cbt': 0.5, 'seed': 0, 'notes': 'XGB GPU v2+auxA lossguide 127 leaves mcw20 lr0.02, 10-fold split_seed31'}
+X shape (699635, 88)
+[gpu4_xgb_v2aux_k10] fold 0: AUC 0.96062 iters 599 (94s)
+[gpu4_xgb_v2aux_k10] fold 1: AUC 0.96193 iters 875 (109s)
+[gpu4_xgb_v2aux_k10] fold 2: AUC 0.96004 iters 682 (80s)
+[gpu4_xgb_v2aux_k10] fold 3: AUC 0.96014 iters 797 (88s)
+[gpu4_xgb_v2aux_k10] fold 4: AUC 0.96079 iters 724 (79s)
+[gpu4_xgb_v2aux_k10] fold 5: AUC 0.96266 iters 658 (70s)
+[gpu4_xgb_v2aux_k10] fold 6: AUC 0.96098 iters 587 (65s)
+[gpu4_xgb_v2aux_k10] fold 7: AUC 0.96151 iters 1030 (95s)
+[gpu4_xgb_v2aux_k10] fold 8: AUC 0.96113 iters 559 (63s)
+[gpu4_xgb_v2aux_k10] fold 9: AUC 0.96101 iters 674 (71s)
+[gpu4_xgb_v2aux_k10] CV AUC 0.961074  folds [0.96128 0.96009 0.96171 0.96124 0.96107]
