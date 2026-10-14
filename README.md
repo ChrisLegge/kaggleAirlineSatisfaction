@@ -4,7 +4,7 @@ Binary classification of airline passenger satisfaction ([competition page](http
 scored by ROC AUC. 700k synthetic training rows generated from the real
 [Airline Passenger Satisfaction](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction) dataset.
 
-**Best result so far:** public LB **0.96177** (rank 4 / 885 on 2026-10-06), 5-fold CV 0.96208.
+**Best result so far:** public LB **0.96189** (rank 20 / 1,855 on 2026-10-15), 5-fold CV 0.96224.
 
 ## Progression
 
@@ -18,6 +18,7 @@ scored by ROC AUC. 700k synthetic training rows generated from the real
 | + further public OOF libraries (125 members) | 0.96199 | 0.96164 |
 | + more public libraries (busyaprime, sadamtorres), LogReg C=0.02 (175 members) | 0.96205 | 0.96173 |
 | + own 10-fold RealMLP / CatBoost members with auxiliary features (184 members) | 0.96208 | 0.96177 |
+| + new public OOF pools (foundation models, golem v6, …), family-scaled LogReg (306 members) | 0.96224 | 0.96189 |
 
 The public LB was consistently ~0.0004 below CV, so all model selection was done on CV
 (the public LB uses only ~20 % of the test set and is noisy at the 4th decimal).
@@ -57,6 +58,8 @@ competitors. Their work made a large part of the final score possible:
 - **Busya PRIME** (five members re-run and shared by **kratosyan**) and **sadamtorres** (artifacts library).
 - Public OOF libraries: **dariushafshar** (golem OOF library), **sachith7** (stack OOF predictions),
   **megayak** (OOF library), **arhancanli12** (OOF & test predictions).
+- Second import round (`import_public_libs3.py`): **Chris Deotte** (124 public OOF + TFM pack: TabPFN-3.5, TabICL-2, Kumo, LimiX-2, Mitra-2, Causilo, EXAONE, TabFM), **dariushafshar** (golem library v6), **goodpjw2008** (extra members), **kagankoral**, **koumeimaki**, **abdullahsafwan333**, **amanatar**, **dmitriykolmikov**, **hermengardo**, **kozykappa**, **kratosyan**, **yekenot**, **mitudru**, **thisray**, **wangxintong111**, **hemingweb/samanyu**, **sachith7**. Label-fitted blends/stacks were excluded.
+- "Family regularisation" stacker idea from goodpjw2008's *Twin Stacks + Family Reg*; research notes in `experiments/public_notebooks/FINDINGS_v2.md`.
 - Notebooks consulted: najiama, sarunpm, nina2025, matterhorn3838 and others
   (summary in `experiments/public_notebooks/FINDINGS.md`).
 

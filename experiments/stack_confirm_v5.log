@@ -1,0 +1,6 @@
+seed 7 pfn1 tfm1: 0.962228  vs flat +0.0e-6, 0/5 up
+seed 7 pfn2.0 tfm1.25: 0.962235  vs flat +6.9e-6, 4/5 up
+seed 7 pfn3.0 tfm1.5: 0.962237  vs flat +9.0e-6, 4/5 up
+seed 13 pfn1 tfm1: 0.962238  vs flat +0.0e-6, 0/5 up
+seed 13 pfn2.0 tfm1.25: 0.962241  vs flat +3.4e-6, 3/5 up
+seed 13 pfn3.0 tfm1.5: 0.962247  vs flat +9.3e-6, 5/5 up

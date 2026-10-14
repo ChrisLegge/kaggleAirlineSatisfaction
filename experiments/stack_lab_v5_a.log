@@ -1,0 +1,8 @@
+306 eligible: 184 v4 + 112 new public + 10 own not in v4 ['cpu4_lgbm_t34_auxA_k10', 'cpu4_lgbm_t34_k10', 'cpu4_lgbm_var_k10', 'gpu4_cat_aux_k10_dw10', 'gpu4_cat_noaux_k10_d6', 'gpu4_rmlp_raw_aux_k10_arch', 'gpu4_rmlp_raw_aux_k10_e6', 'gpu4_rmlp_raw_aux_k10_s3', 'gpu4_xgb_v2aux_k10', 'gpu4_xgb_v2aux_k10_d8']
+v4 184 (repro)                           n=184 C=0.02   CV 0.962079 folds [0.962131 0.961253 0.96274  0.962312 0.961962] (36s)
+v4+new                                   n=296 C=0.02   CV 0.962221 folds [0.96238  0.96142  0.962839 0.96243  0.962036] (51s)
+v4+new sweep                             n=296 C=0.005  CV 0.962187 folds [0.962239 0.961419 0.962837 0.962403 0.96204 ] (44s)
+v4+new sweep                             n=296 C=0.01   CV 0.962218 folds [0.962331 0.961422 0.962848 0.962431 0.96206 ] (49s)
+v4+new sweep                             n=296 C=0.05   CV 0.962223 folds [0.962372 0.961384 0.962846 0.962423 0.962088] (63s)
+v4+new sweep                             n=296 C=0.1    CV 0.962217 folds [0.962403 0.961373 0.962835 0.962399 0.962074] (57s)
+v4+new+own10                             n=306 C=0.02   CV 0.962231 folds [0.96238  0.961407 0.962855 0.962447 0.962065] (51s)

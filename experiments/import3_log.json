@@ -1,0 +1,894 @@
+{
+ "imported": [
+  [
+   "golem_o_tabpfn35",
+   0.9610816221575668
+  ],
+  [
+   "golem_p_lgbm_auxev",
+   0.9613136427374145
+  ],
+  [
+   "golem_q_lgbm_auxev_10fold",
+   0.961387529148344
+  ],
+  [
+   "golem_r_realmlp_auxev",
+   0.9613485476149735
+  ],
+  [
+   "golem_s_realmlp_raw_auxev_10fold",
+   0.9611337462533127
+  ],
+  [
+   "golem_t_xgb_d5_auxev",
+   0.9612593985184248
+  ],
+  [
+   "golem_u_catboost_ctr_auxev",
+   0.9611252887916598
+  ],
+  [
+   "cd_meh_cat",
+   0.9603291540896687
+  ],
+  [
+   "cd_meh_lgb",
+   0.9606888201186589
+  ],
+  [
+   "cd_meh_realmlp",
+   0.960957548011911
+  ],
+  [
+   "cd_meh_xgb",
+   0.9604316573180868
+  ],
+  [
+   "cd_mg_realmlp",
+   0.9610072432860592
+  ],
+  [
+   "cd_mg_realmlp_fa4",
+   0.9610153347007447
+  ],
+  [
+   "cd_mg_realmlp_og",
+   0.9609221408321773
+  ],
+  [
+   "cd_mg_realmlp_v4",
+   0.9611975257667364
+  ],
+  [
+   "cd_mg_realmlp_v4og",
+   0.9612319356715853
+  ],
+  [
+   "cd_mi_cat_ctr",
+   0.9611197888704787
+  ],
+  [
+   "cd_mi_glm_xgb",
+   0.9610648594561962
+  ],
+  [
+   "cd_mi_lgb_route_cat",
+   0.9610272920253295
+  ],
+  [
+   "cd_mi_realmlp_lean",
+   0.9613074455817463
+  ],
+  [
+   "cd_mi_realmlp_raw",
+   0.960976197154479
+  ],
+  [
+   "cd_mi_xgb",
+   0.9612471091785999
+  ],
+  [
+   "cd_mi_xgb_d5",
+   0.9612882165175153
+  ],
+  [
+   "blend_cd_nj_01",
+   0.9617440495994619
+  ],
+  [
+   "cd_pfn_hemingweb_raw",
+   0.9610532633405526
+  ],
+  [
+   "cd_pfn_samanyu_route_og",
+   0.96126841671518
+  ],
+  [
+   "cd_pfn_samanyu_seeds",
+   0.9610079439348932
+  ],
+  [
+   "cd_th_catboost",
+   0.9609412254922929
+  ],
+  [
+   "cd_th_realmlp",
+   0.9610415714948966
+  ],
+  [
+   "cd_th_xgb",
+   0.9610927029965172
+  ],
+  [
+   "cd_wx_context_numeric",
+   0.9606491618575763
+  ],
+  [
+   "cd_wx_rating_segments",
+   0.9608108677355643
+  ],
+  [
+   "cdtfm_causilo",
+   0.958275404186907
+  ],
+  [
+   "cdtfm_exaone",
+   0.958557058876498
+  ],
+  [
+   "cdtfm_kumolarge",
+   0.9600362894077622
+  ],
+  [
+   "cdtfm_kumosmall",
+   0.9584836353020306
+  ],
+  [
+   "cdtfm_limix2",
+   0.9584738798380872
+  ],
+  [
+   "cdtfm_mitra2",
+   0.9570748881951691
+  ],
+  [
+   "cdtfm_realmlp",
+   0.9593114544984698
+  ],
+  [
+   "cdtfm_tabfm",
+   0.9588708422401792
+  ],
+  [
+   "cdtfm_tabicl2",
+   0.9580880168158842
+  ],
+  [
+   "cdtfm_tabpfn35",
+   0.9611450967635963
+  ],
+  [
+   "cdtfm_xgboost",
+   0.9598524042835063
+  ],
+  [
+   "gpx_cat_aux",
+   0.9609373473735162
+  ],
+  [
+   "gpx_cat_ctr_k",
+   0.9610033217740364
+  ],
+  [
+   "gpx_cat_k10",
+   0.9611135040467954
+  ],
+  [
+   "gpx_gen_v1",
+   0.952398737303915
+  ],
+  [
+   "gpx_glm6_xgb_k",
+   0.9608294463604858
+  ],
+  [
+   "gpx_lgb_k10",
+   0.9612151477288785
+  ],
+  [
+   "gpx_realmlp_fa_aux3_k",
+   0.9610718301745959
+  ],
+  [
+   "gpx_realmlp_fa_aux_n16",
+   0.9610708686365428
+  ],
+  [
+   "gpx_realmlp_fa_auxev",
+   0.9610549457114035
+  ],
+  [
+   "gpx_realmlp_fa_s7_k",
+   0.9609684159611531
+  ],
+  [
+   "gpx_realmlp_pub_aux_k",
+   0.9609155507244872
+  ],
+  [
+   "gpx_realmlp_v4fa_auxfull",
+   0.9612749414577837
+  ],
+  [
+   "gpx_realmlp_vb",
+   0.9611501512014753
+  ],
+  [
+   "blend_gpx_stack245",
+   0.9622243416105974
+  ],
+  [
+   "gpx_tabm_v4aux",
+   0.9604664616731317
+  ],
+  [
+   "gpx_xgb_d10_k10",
+   0.9612577328799433
+  ],
+  [
+   "gpx_xgb_k10",
+   0.9612559945220791
+  ],
+  [
+   "kga_cat_allcat_v1_k5",
+   0.9610948482783249
+  ],
+  [
+   "kga_cat_allcat_v2_k5",
+   0.9611268942300304
+  ],
+  [
+   "kga_cat_enc3_k5",
+   0.9606350917640442
+  ],
+  [
+   "kga_cat_enc4_k10",
+   0.9610220717826222
+  ],
+  [
+   "kga_cat_enc4_k5",
+   0.9608046995459745
+  ],
+  [
+   "kga_cat_raw_k5",
+   0.9587110731577638
+  ],
+  [
+   "kga_lgb_enc3_k5",
+   0.9605850312458172
+  ],
+  [
+   "kga_lgb_enc4_k10",
+   0.9609872426952893
+  ],
+  [
+   "kga_lgb_enc4_k5",
+   0.9607308981212456
+  ],
+  [
+   "kga_lgb_raw_k5",
+   0.9590410763375056
+  ],
+  [
+   "kga_realmlp_enc_k5",
+   0.9609557801789202
+  ],
+  [
+   "kga_realmlp_raw_s42_k5",
+   0.960883066759657
+  ],
+  [
+   "kga_realmlp_raw_s7_k5",
+   0.9608846763738773
+  ],
+  [
+   "kga_xgb_enc3_k5",
+   0.9605899128142733
+  ],
+  [
+   "kga_xgb_enc4_k10",
+   0.9609719767277582
+  ],
+  [
+   "kga_xgb_enc4_k5",
+   0.9607928668595399
+  ],
+  [
+   "kga_xgb_raw_k5",
+   0.9588992651475904
+  ],
+  [
+   "kg_lgb",
+   0.9608214818891523
+  ],
+  [
+   "kg_xgb",
+   0.9607918452579501
+  ],
+  [
+   "kg_cat",
+   0.9607779063912231
+  ],
+  [
+   "kg_cat_allcat",
+   0.9607992447852227
+  ],
+  [
+   "kg_realmlp",
+   0.9609792982920387
+  ],
+  [
+   "dk_cb_cat",
+   0.9606650294785716
+  ],
+  [
+   "sach_lgb_cpu_strong",
+   0.9610831988988685
+  ],
+  [
+   "sach_xgb_A_auxall",
+   0.960915681914045
+  ],
+  [
+   "km_cat_w1",
+   0.9612225429106188
+  ],
+  [
+   "km_lgb_w1",
+   0.9611976582723698
+  ],
+  [
+   "km_rmlp_f_nc",
+   0.9612953642066926
+  ],
+  [
+   "km_tabicl_fdcat_c250k",
+   0.9572811886977918
+  ],
+  [
+   "km_tabm_bcd_rc_v2",
+   0.9607676145768227
+  ],
+  [
+   "km_tabpfn_catfd10",
+   0.9611776066816022
+  ],
+  [
+   "km_xgb_w1",
+   0.9611967454001425
+  ],
+  [
+   "am_forge_cat",
+   0.9609082114594042
+  ],
+  [
+   "am_forge_ghost_xt",
+   0.960919690208422
+  ],
+  [
+   "am_forge_lgbm",
+   0.9610369084074003
+  ],
+  [
+   "am_forge_lgbm_xt",
+   0.9609032171016165
+  ],
+  [
+   "am_forge_realmlp",
+   0.9612202200372425
+  ],
+  [
+   "am_forge_xgb",
+   0.9610469129158826
+  ],
+  [
+   "av5_lgbm_champion",
+   0.9586678836383113
+  ],
+  [
+   "av5_lgbm_te",
+   0.9580125628679051
+  ],
+  [
+   "av5_lgbm_te_rows",
+   0.9585680117995248
+  ],
+  [
+   "av5_xgb_gpu",
+   0.958502101141759
+  ],
+  [
+   "av5_catboost_gpu",
+   0.9598197302657759
+  ],
+  [
+   "blend_av5_logit_blend",
+   0.9601552594854187
+  ],
+  [
+   "blend_av5_rank_blend",
+   0.960119936017196
+  ],
+  [
+   "blend_av5_lr_stack",
+   0.9603599018280148
+  ],
+  [
+   "ab_cat_v3",
+   0.9613958558260223
+  ],
+  [
+   "ab_tabpfn_catfd10",
+   0.9615956585366202
+  ],
+  [
+   "ab_tabpfn_raw",
+   0.9608722234599306
+  ],
+  [
+   "ab_tabpfn_te_cnt",
+   0.9613760662005102
+  ],
+  [
+   "ab_xgb_v3",
+   0.9613773145768192
+  ],
+  [
+   "hm_cat",
+   0.9602007249630503
+  ],
+  [
+   "kz_source_transfer",
+   0.9586462037930582
+  ],
+  [
+   "blend_kz_meta",
+   0.958644643568919
+  ],
+  [
+   "kr_rmlp_route_ogaux",
+   0.9610171043505819
+  ],
+  [
+   "kr_xgb_route_ogaux",
+   0.9610392064119146
+  ],
+  [
+   "yk_realmlp",
+   0.9612169154004638
+  ],
+  [
+   "blend_naji_04",
+   0.9620824452068584
+  ],
+  [
+   "blend_naji_05",
+   0.9622339196195465
+  ],
+  [
+   "blend_naji_06",
+   0.9622105702124171
+  ],
+  [
+   "nj07_xgb",
+   0.9608747839180555
+  ],
+  [
+   "nstack_dariush247",
+   0.9622050148049933
+  ]
+ ],
+ "skipped": [
+  [
+   "cd_ar_cat_5f",
+   "dup of arhan_cat_5f"
+  ],
+  [
+   "cd_ar_lgb_5f",
+   "dup of arhan_lgb_5f"
+  ],
+  [
+   "cd_ar_realmlp_5f",
+   "dup of arhan_realmlp_5f"
+  ],
+  [
+   "cd_ar_xgb_5f",
+   "dup of arhan_xgb_5f"
+  ],
+  [
+   "cd_bp_cat",
+   "dup of bp_cat"
+  ],
+  [
+   "cd_bp_lgbm",
+   "dup of bp_lgbm"
+  ],
+  [
+   "cd_bp_lgbm_xt",
+   "dup of bp_lgbm_xt"
+  ],
+  [
+   "cd_bp_realmlp",
+   "dup of bp_realmlp"
+  ],
+  [
+   "cd_bp_xgb",
+   "dup of bp_xgb"
+  ],
+  [
+   "cd_gl_a",
+   "dup of golem_a"
+  ],
+  [
+   "cd_gl_b",
+   "dup of golem_b"
+  ],
+  [
+   "cd_gl_c",
+   "dup of golem_c"
+  ],
+  [
+   "cd_gl_d",
+   "dup of golem_d"
+  ],
+  [
+   "cd_gl_e",
+   "dup of golem_e"
+  ],
+  [
+   "cd_gl_f",
+   "dup of golem_f"
+  ],
+  [
+   "cd_gl_g",
+   "dup of golem_g"
+  ],
+  [
+   "cd_gl_h",
+   "dup of golem_h"
+  ],
+  [
+   "cd_gl_i",
+   "dup of golem_i"
+  ],
+  [
+   "cd_gl_j",
+   "dup of golem_j"
+  ],
+  [
+   "cd_gl_k",
+   "dup of golem_k"
+  ],
+  [
+   "cd_gl_l",
+   "dup of golem_l"
+  ],
+  [
+   "cd_gl_m",
+   "dup of golem_m"
+  ],
+  [
+   "cd_gl_n",
+   "dup of golem_n"
+  ],
+  [
+   "cd_gp_cat_ctr",
+   "dup of pub_cat_ctr"
+  ],
+  [
+   "cd_gp_cat_ctr3",
+   "dup of pub_cat_ctr3"
+  ],
+  [
+   "cd_gp_cat_ctr5",
+   "dup of pub_cat_ctr5"
+  ],
+  [
+   "cd_gp_cat_v3",
+   "dup of pub_cat_v3"
+  ],
+  [
+   "cd_gp_cat_vb",
+   "dup of pub_cat_vb"
+  ],
+  [
+   "cd_gp_deepfm_rawaux",
+   "dup of pub_deepfm_rawaux"
+  ],
+  [
+   "cd_gp_deepfm_v1",
+   "dup of pub_deepfm_v1"
+  ],
+  [
+   "cd_gp_glm6_xgb",
+   "dup of pub_glm6_xgb"
+  ],
+  [
+   "cd_gp_glm_xgb",
+   "dup of pub_glm_xgb"
+  ],
+  [
+   "cd_gp_lgb_auxall",
+   "dup of pub_lgb_auxall"
+  ],
+  [
+   "cd_gp_lgb_v3",
+   "dup of pub_lgb_v3"
+  ],
+  [
+   "cd_gp_lgb_vb",
+   "dup of pub_lgb_vb"
+  ],
+  [
+   "cd_gp_lgb_vb_aux",
+   "dup of pub_lgb_vb_aux"
+  ],
+  [
+   "cd_gp_lgb_vb_ogev",
+   "dup of pub_lgb_vb_ogev"
+  ],
+  [
+   "cd_gp_realmlp_fa",
+   "dup of pub_realmlp_fa"
+  ],
+  [
+   "cd_gp_realmlp_fa_aux",
+   "dup of pub_realmlp_fa_aux"
+  ],
+  [
+   "cd_gp_realmlp_fa_aux3",
+   "dup of pub_realmlp_fa_aux3"
+  ],
+  [
+   "cd_gp_realmlp_fa_aux_s2",
+   "dup of pub_realmlp_fa_aux_s2"
+  ],
+  [
+   "cd_gp_realmlp_fa_auxog",
+   "dup of pub_realmlp_fa_auxog"
+  ],
+  [
+   "cd_gp_realmlp_fa_auxogev",
+   "dup of pub_realmlp_fa_auxogev"
+  ],
+  [
+   "cd_gp_realmlp_fa_s123",
+   "dup of pub_realmlp_fa_s123"
+  ],
+  [
+   "cd_gp_realmlp_fa_s7",
+   "dup of pub_realmlp_fa_s7"
+  ],
+  [
+   "cd_gp_realmlp_og",
+   "dup of pub_realmlp_og"
+  ],
+  [
+   "cd_gp_realmlp_pub",
+   "dup of pub_realmlp_pub"
+  ],
+  [
+   "cd_gp_realmlp_pub_aux",
+   "dup of pub_realmlp_pub_aux"
+  ],
+  [
+   "cd_gp_realmlp_pub_s1",
+   "dup of pub_realmlp_pub_s1"
+  ],
+  [
+   "cd_gp_realmlp_pub_s2",
+   "dup of pub_realmlp_pub_s2"
+  ],
+  [
+   "cd_gp_realmlp_v4",
+   "dup of pub_realmlp_v4"
+  ],
+  [
+   "cd_gp_realmlp_v4_s1",
+   "dup of pub_realmlp_v4_s1"
+  ],
+  [
+   "cd_gp_realmlp_v4_s2",
+   "dup of pub_realmlp_v4_s2"
+  ],
+  [
+   "cd_gp_realmlp_v4fa",
+   "dup of pub_realmlp_v4fa"
+  ],
+  [
+   "cd_gp_realmlp_vb_aux",
+   "dup of pub_realmlp_vb_aux"
+  ],
+  [
+   "cd_gp_realmlp_vb_aux_s2",
+   "dup of pub_realmlp_vb_aux_s2"
+  ],
+  [
+   "cd_gp_tabicl_full_raw",
+   "dup of pub_tabicl_full_raw"
+  ],
+  [
+   "cd_gp_tabpfn_catfd",
+   "dup of pub_tabpfn_catfd"
+  ],
+  [
+   "cd_gp_tabpfn_catfd10",
+   "dup of pub_tabpfn_catfd10"
+  ],
+  [
+   "cd_gp_tabpfn_catfd_s1",
+   "dup of pub_tabpfn_catfd_s1"
+  ],
+  [
+   "cd_gp_tabpfn_full_raw",
+   "dup of pub_tabpfn_full_raw"
+  ],
+  [
+   "cd_gp_tabpfn_full_raw_s1",
+   "dup of pub_tabpfn_full_raw_s1"
+  ],
+  [
+   "cd_gp_tabpfn_te",
+   "dup of pub_tabpfn_te"
+  ],
+  [
+   "cd_gp_tabpfn_te4",
+   "dup of pub_tabpfn_te4"
+  ],
+  [
+   "cd_gp_xgb_auxall",
+   "dup of pub_xgb_auxall"
+  ],
+  [
+   "cd_gp_xgb_auxev",
+   "dup of pub_xgb_auxev"
+  ],
+  [
+   "cd_gp_xgb_v3",
+   "dup of pub_xgb_v3"
+  ],
+  [
+   "cd_gp_xgb_v3_d10",
+   "dup of pub_xgb_v3_d10"
+  ],
+  [
+   "cd_gp_xgb_v3_s1",
+   "dup of pub_xgb_v3_s1"
+  ],
+  [
+   "cd_gp_xgb_v4_tuned",
+   "dup of pub_xgb_v4_tuned"
+  ],
+  [
+   "cd_gp_xgb_vb",
+   "dup of pub_xgb_vb"
+  ],
+  [
+   "cd_mg_cat",
+   "dup of mega_cat"
+  ],
+  [
+   "cd_mg_cat_ctr",
+   "dup of mega_cat_ctr"
+  ],
+  [
+   "cd_mg_lgb",
+   "dup of mega_lgb"
+  ],
+  [
+   "cd_mg_lgb_ogteach",
+   "dup of mega_lgb_ogteach"
+  ],
+  [
+   "cd_mg_lgb_route",
+   "dup of mega_lgb_route"
+  ],
+  [
+   "cd_mg_xgb",
+   "dup of mega_xgb"
+  ],
+  [
+   "cd_sa_cat_ctr_auxall_k10",
+   "dup of sach_cat_ctr_auxall_k10"
+  ],
+  [
+   "cd_sa_cat_ctr_auxev",
+   "dup of sach_cat_ctr_auxev"
+  ],
+  [
+   "cd_sa_cat_ctr_auxev_k10",
+   "dup of sach_cat_ctr_auxev_k10"
+  ],
+  [
+   "cd_sa_lgb_A",
+   "dup of sach_lgb_A"
+  ],
+  [
+   "cd_sa_lgb_A_auxall",
+   "dup of sach_lgb_A_auxall"
+  ],
+  [
+   "cd_sa_lgb_A_auxall_k10",
+   "dup of sach_lgb_A_auxall_k10"
+  ],
+  [
+   "cd_sa_lgb_B_k10",
+   "dup of sach_lgb_B_k10"
+  ],
+  [
+   "cd_sa_rmlp_B",
+   "dup of sach_rmlp_B"
+  ],
+  [
+   "cd_sa_rmlp_B_k10",
+   "dup of sach_rmlp_B_k10"
+  ],
+  [
+   "cd_sa_rmlp_ogx_aux",
+   "dup of sach_rmlp_ogx_aux"
+  ],
+  [
+   "cd_sa_rmlp_ogx_aux_k10",
+   "dup of sach_rmlp_ogx_aux_k10"
+  ],
+  [
+   "cd_sa_rmlp_raw_aux_k10",
+   "dup of sach_rmlp_raw_aux_k10"
+  ],
+  [
+   "cd_sa_rmlp_raw_aux_s2",
+   "dup of sach_rmlp_raw_aux_s2"
+  ],
+  [
+   "cd_sa_rmlp_v4aux",
+   "dup of sach_rmlp_v4aux"
+  ],
+  [
+   "cd_sa_rmlp_v4aux_k10",
+   "dup of sach_rmlp_v4aux_k10"
+  ],
+  [
+   "cd_sa_rmlp_v4aux_k10s2",
+   "dup of sach_rmlp_v4aux_k10s2"
+  ],
+  [
+   "cd_sa_rmlp_v4ev_e4_k10",
+   "dup of sach_rmlp_v4ev_e4_k10"
+  ],
+  [
+   "cd_sa_xgb_A",
+   "dup of sach_xgb_A"
+  ],
+  [
+   "cd_sa_xgb_A_auxev",
+   "dup of sach_xgb_A_auxev"
+  ],
+  [
+   "cd_sa_xgb_raw",
+   "dup of sach_xgb_raw"
+  ],
+  [
+   "cd_sa_xgb_route",
+   "dup of sach_xgb_route"
+  ],
+  [
+   "cd_sa_xgb_te",
+   "dup of sach_xgb_te"
+  ],
+  [
+   "gpx_lgb_v3_k",
+   "dup of pub_lgb_v3"
+  ]
+ ]
+}

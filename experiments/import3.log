@@ -1,0 +1,228 @@
+cd_ar_cat_5f: values outside [0,1] -> treated as logits, sigmoid applied
+dup cd_ar_cat_5f == arhan_cat_5f (corr 1.0000000) -> skipped
+cd_ar_lgb_5f: values outside [0,1] -> treated as logits, sigmoid applied
+dup cd_ar_lgb_5f == arhan_lgb_5f (corr 1.0000005) -> skipped
+cd_ar_realmlp_5f: values outside [0,1] -> treated as logits, sigmoid applied
+dup cd_ar_realmlp_5f == arhan_realmlp_5f (corr 0.9999998) -> skipped
+cd_ar_xgb_5f: values outside [0,1] -> treated as logits, sigmoid applied
+dup cd_ar_xgb_5f == arhan_xgb_5f (corr 0.9999998) -> skipped
+dup cd_bp_cat == bp_cat (corr 1.0000002) -> skipped
+dup cd_bp_lgbm == bp_lgbm (corr 0.9999998) -> skipped
+dup cd_bp_lgbm_xt == bp_lgbm_xt (corr 1.0000001) -> skipped
+dup cd_bp_realmlp == bp_realmlp (corr 1.0000000) -> skipped
+dup cd_bp_xgb == bp_xgb (corr 0.9999999) -> skipped
+dup cd_gl_a == golem_a (corr 1.0000002) -> skipped
+dup cd_gl_b == golem_b (corr 1.0000005) -> skipped
+dup cd_gl_c == golem_c (corr 1.0000001) -> skipped
+dup cd_gl_d == golem_d (corr 0.9999999) -> skipped
+dup cd_gl_e == golem_e (corr 1.0000004) -> skipped
+dup cd_gl_f == golem_f (corr 1.0000000) -> skipped
+dup cd_gl_g == golem_g (corr 1.0000000) -> skipped
+dup cd_gl_h == golem_h (corr 1.0000001) -> skipped
+dup cd_gl_i == golem_i (corr 1.0000001) -> skipped
+dup cd_gl_j == golem_j (corr 1.0000005) -> skipped
+dup cd_gl_k == golem_k (corr 0.9999998) -> skipped
+dup cd_gl_l == golem_l (corr 1.0000002) -> skipped
+dup cd_gl_m == golem_m (corr 1.0000001) -> skipped
+dup cd_gl_n == golem_n (corr 0.9999999) -> skipped
+dup cd_gp_cat_ctr == pub_cat_ctr (corr 0.9999999) -> skipped
+dup cd_gp_cat_ctr3 == pub_cat_ctr3 (corr 1.0000004) -> skipped
+dup cd_gp_cat_ctr5 == pub_cat_ctr5 (corr 1.0000002) -> skipped
+dup cd_gp_cat_v3 == pub_cat_v3 (corr 0.9999998) -> skipped
+dup cd_gp_cat_vb == pub_cat_vb (corr 1.0000001) -> skipped
+dup cd_gp_deepfm_rawaux == pub_deepfm_rawaux (corr 1.0000001) -> skipped
+dup cd_gp_deepfm_v1 == pub_deepfm_v1 (corr 0.9999999) -> skipped
+dup cd_gp_glm6_xgb == pub_glm6_xgb (corr 1.0000005) -> skipped
+dup cd_gp_glm_xgb == pub_glm_xgb (corr 1.0000001) -> skipped
+dup cd_gp_lgb_auxall == pub_lgb_auxall (corr 1.0000000) -> skipped
+dup cd_gp_lgb_v3 == pub_lgb_v3 (corr 1.0000001) -> skipped
+dup cd_gp_lgb_vb == pub_lgb_vb (corr 1.0000002) -> skipped
+dup cd_gp_lgb_vb_aux == pub_lgb_vb_aux (corr 1.0000000) -> skipped
+dup cd_gp_lgb_vb_ogev == pub_lgb_vb_ogev (corr 1.0000001) -> skipped
+dup cd_gp_realmlp_fa == pub_realmlp_fa (corr 0.9999998) -> skipped
+dup cd_gp_realmlp_fa_aux == pub_realmlp_fa_aux (corr 1.0000001) -> skipped
+dup cd_gp_realmlp_fa_aux3 == pub_realmlp_fa_aux3 (corr 1.0000002) -> skipped
+dup cd_gp_realmlp_fa_aux_s2 == pub_realmlp_fa_aux_s2 (corr 0.9999999) -> skipped
+dup cd_gp_realmlp_fa_auxog == pub_realmlp_fa_auxog (corr 0.9999999) -> skipped
+dup cd_gp_realmlp_fa_auxogev == pub_realmlp_fa_auxogev (corr 1.0000001) -> skipped
+dup cd_gp_realmlp_fa_s123 == pub_realmlp_fa_s123 (corr 1.0000001) -> skipped
+dup cd_gp_realmlp_fa_s7 == pub_realmlp_fa_s7 (corr 1.0000001) -> skipped
+dup cd_gp_realmlp_og == pub_realmlp_og (corr 1.0000001) -> skipped
+dup cd_gp_realmlp_pub == pub_realmlp_pub (corr 1.0000002) -> skipped
+dup cd_gp_realmlp_pub_aux == pub_realmlp_pub_aux (corr 0.9999999) -> skipped
+dup cd_gp_realmlp_pub_s1 == pub_realmlp_pub_s1 (corr 1.0000001) -> skipped
+dup cd_gp_realmlp_pub_s2 == pub_realmlp_pub_s2 (corr 1.0000002) -> skipped
+dup cd_gp_realmlp_v4 == pub_realmlp_v4 (corr 1.0000000) -> skipped
+dup cd_gp_realmlp_v4_s1 == pub_realmlp_v4_s1 (corr 1.0000000) -> skipped
+dup cd_gp_realmlp_v4_s2 == pub_realmlp_v4_s2 (corr 1.0000001) -> skipped
+dup cd_gp_realmlp_v4fa == pub_realmlp_v4fa (corr 1.0000000) -> skipped
+dup cd_gp_realmlp_vb_aux == pub_realmlp_vb_aux (corr 1.0000004) -> skipped
+dup cd_gp_realmlp_vb_aux_s2 == pub_realmlp_vb_aux_s2 (corr 1.0000001) -> skipped
+dup cd_gp_tabicl_full_raw == pub_tabicl_full_raw (corr 1.0000001) -> skipped
+dup cd_gp_tabpfn_catfd == pub_tabpfn_catfd (corr 1.0000002) -> skipped
+dup cd_gp_tabpfn_catfd10 == pub_tabpfn_catfd10 (corr 1.0000001) -> skipped
+dup cd_gp_tabpfn_catfd_s1 == pub_tabpfn_catfd_s1 (corr 1.0000001) -> skipped
+dup cd_gp_tabpfn_full_raw == pub_tabpfn_full_raw (corr 1.0000004) -> skipped
+dup cd_gp_tabpfn_full_raw_s1 == pub_tabpfn_full_raw_s1 (corr 0.9999999) -> skipped
+dup cd_gp_tabpfn_te == pub_tabpfn_te (corr 1.0000000) -> skipped
+dup cd_gp_tabpfn_te4 == pub_tabpfn_te4 (corr 1.0000004) -> skipped
+dup cd_gp_xgb_auxall == pub_xgb_auxall (corr 1.0000001) -> skipped
+dup cd_gp_xgb_auxev == pub_xgb_auxev (corr 1.0000000) -> skipped
+dup cd_gp_xgb_v3 == pub_xgb_v3 (corr 1.0000005) -> skipped
+dup cd_gp_xgb_v3_d10 == pub_xgb_v3_d10 (corr 1.0000002) -> skipped
+dup cd_gp_xgb_v3_s1 == pub_xgb_v3_s1 (corr 1.0000005) -> skipped
+dup cd_gp_xgb_v4_tuned == pub_xgb_v4_tuned (corr 1.0000002) -> skipped
+dup cd_gp_xgb_vb == pub_xgb_vb (corr 1.0000004) -> skipped
+dup cd_mg_cat == mega_cat (corr 0.9999999) -> skipped
+dup cd_mg_cat_ctr == mega_cat_ctr (corr 1.0000002) -> skipped
+dup cd_mg_lgb == mega_lgb (corr 1.0000002) -> skipped
+dup cd_mg_lgb_ogteach == mega_lgb_ogteach (corr 1.0000002) -> skipped
+dup cd_mg_lgb_route == mega_lgb_route (corr 0.9999998) -> skipped
+dup cd_mg_xgb == mega_xgb (corr 1.0000001) -> skipped
+dup cd_sa_cat_ctr_auxall_k10 == sach_cat_ctr_auxall_k10 (corr 1.0000005) -> skipped
+dup cd_sa_cat_ctr_auxev == sach_cat_ctr_auxev (corr 1.0000001) -> skipped
+dup cd_sa_cat_ctr_auxev_k10 == sach_cat_ctr_auxev_k10 (corr 1.0000001) -> skipped
+dup cd_sa_lgb_A == sach_lgb_A (corr 0.9999999) -> skipped
+dup cd_sa_lgb_A_auxall == sach_lgb_A_auxall (corr 1.0000004) -> skipped
+dup cd_sa_lgb_A_auxall_k10 == sach_lgb_A_auxall_k10 (corr 1.0000000) -> skipped
+dup cd_sa_lgb_B_k10 == sach_lgb_B_k10 (corr 1.0000002) -> skipped
+dup cd_sa_rmlp_B == sach_rmlp_B (corr 1.0000001) -> skipped
+dup cd_sa_rmlp_B_k10 == sach_rmlp_B_k10 (corr 1.0000001) -> skipped
+dup cd_sa_rmlp_ogx_aux == sach_rmlp_ogx_aux (corr 1.0000000) -> skipped
+dup cd_sa_rmlp_ogx_aux_k10 == sach_rmlp_ogx_aux_k10 (corr 1.0000002) -> skipped
+dup cd_sa_rmlp_raw_aux_k10 == sach_rmlp_raw_aux_k10 (corr 1.0000002) -> skipped
+dup cd_sa_rmlp_raw_aux_s2 == sach_rmlp_raw_aux_s2 (corr 1.0000000) -> skipped
+dup cd_sa_rmlp_v4aux == sach_rmlp_v4aux (corr 0.9999999) -> skipped
+dup cd_sa_rmlp_v4aux_k10 == sach_rmlp_v4aux_k10 (corr 1.0000002) -> skipped
+dup cd_sa_rmlp_v4aux_k10s2 == sach_rmlp_v4aux_k10s2 (corr 0.9999998) -> skipped
+dup cd_sa_rmlp_v4ev_e4_k10 == sach_rmlp_v4ev_e4_k10 (corr 1.0000001) -> skipped
+dup cd_sa_xgb_A == sach_xgb_A (corr 1.0000000) -> skipped
+dup cd_sa_xgb_A_auxev == sach_xgb_A_auxev (corr 1.0000000) -> skipped
+dup cd_sa_xgb_raw == sach_xgb_raw (corr 0.9999998) -> skipped
+dup cd_sa_xgb_route == sach_xgb_route (corr 1.0000001) -> skipped
+dup cd_sa_xgb_te == sach_xgb_te (corr 1.0000000) -> skipped
+dup gpx_lgb_v3_k == pub_lgb_v3 (corr 1.0000001) -> skipped
+najiama 07_XGBoost OOF AUC 0.960875
+blend_naji_05                            0.962234
+blend_gpx_stack245                       0.962224
+blend_naji_06                            0.962211
+nstack_dariush247                        0.962205
+blend_naji_04                            0.962082
+blend_cd_nj_01                           0.961744
+ab_tabpfn_catfd10                        0.961596
+ab_cat_v3                                0.961396
+golem_q_lgbm_auxev_10fold                0.961388
+ab_xgb_v3                                0.961377
+ab_tabpfn_te_cnt                         0.961376
+golem_r_realmlp_auxev                    0.961349
+golem_p_lgbm_auxev                       0.961314
+cd_mi_realmlp_lean                       0.961307
+km_rmlp_f_nc                             0.961295
+cd_mi_xgb_d5                             0.961288
+gpx_realmlp_v4fa_auxfull                 0.961275
+cd_pfn_samanyu_route_og                  0.961268
+golem_t_xgb_d5_auxev                     0.961259
+gpx_xgb_d10_k10                          0.961258
+gpx_xgb_k10                              0.961256
+cd_mi_xgb                                0.961247
+cd_mg_realmlp_v4og                       0.961232
+km_cat_w1                                0.961223
+am_forge_realmlp                         0.961220
+yk_realmlp                               0.961217
+gpx_lgb_k10                              0.961215
+km_lgb_w1                                0.961198
+cd_mg_realmlp_v4                         0.961198
+km_xgb_w1                                0.961197
+km_tabpfn_catfd10                        0.961178
+gpx_realmlp_vb                           0.961150
+cdtfm_tabpfn35                           0.961145
+golem_s_realmlp_raw_auxev_10fold         0.961134
+kga_cat_allcat_v2_k5                     0.961127
+golem_u_catboost_ctr_auxev               0.961125
+cd_mi_cat_ctr                            0.961120
+gpx_cat_k10                              0.961114
+kga_cat_allcat_v1_k5                     0.961095
+cd_th_xgb                                0.961093
+sach_lgb_cpu_strong                      0.961083
+golem_o_tabpfn35                         0.961082
+gpx_realmlp_fa_aux3_k                    0.961072
+gpx_realmlp_fa_aux_n16                   0.961071
+cd_mi_glm_xgb                            0.961065
+gpx_realmlp_fa_auxev                     0.961055
+cd_pfn_hemingweb_raw                     0.961053
+am_forge_xgb                             0.961047
+cd_th_realmlp                            0.961042
+kr_xgb_route_ogaux                       0.961039
+am_forge_lgbm                            0.961037
+cd_mi_lgb_route_cat                      0.961027
+kga_cat_enc4_k10                         0.961022
+kr_rmlp_route_ogaux                      0.961017
+cd_mg_realmlp_fa4                        0.961015
+cd_pfn_samanyu_seeds                     0.961008
+cd_mg_realmlp                            0.961007
+gpx_cat_ctr_k                            0.961003
+kga_lgb_enc4_k10                         0.960987
+kg_realmlp                               0.960979
+cd_mi_realmlp_raw                        0.960976
+kga_xgb_enc4_k10                         0.960972
+gpx_realmlp_fa_s7_k                      0.960968
+cd_meh_realmlp                           0.960958
+kga_realmlp_enc_k5                       0.960956
+cd_th_catboost                           0.960941
+gpx_cat_aux                              0.960937
+cd_mg_realmlp_og                         0.960922
+am_forge_ghost_xt                        0.960920
+sach_xgb_A_auxall                        0.960916
+gpx_realmlp_pub_aux_k                    0.960916
+am_forge_cat                             0.960908
+am_forge_lgbm_xt                         0.960903
+kga_realmlp_raw_s7_k5                    0.960885
+kga_realmlp_raw_s42_k5                   0.960883
+nj07_xgb                                 0.960875
+ab_tabpfn_raw                            0.960872
+gpx_glm6_xgb_k                           0.960829
+kg_lgb                                   0.960821
+cd_wx_rating_segments                    0.960811
+kga_cat_enc4_k5                          0.960805
+kg_cat_allcat                            0.960799
+kga_xgb_enc4_k5                          0.960793
+kg_xgb                                   0.960792
+kg_cat                                   0.960778
+km_tabm_bcd_rc_v2                        0.960768
+kga_lgb_enc4_k5                          0.960731
+cd_meh_lgb                               0.960689
+dk_cb_cat                                0.960665
+cd_wx_context_numeric                    0.960649
+kga_cat_enc3_k5                          0.960635
+kga_xgb_enc3_k5                          0.960590
+kga_lgb_enc3_k5                          0.960585
+gpx_tabm_v4aux                           0.960466
+cd_meh_xgb                               0.960432
+blend_av5_lr_stack                       0.960360
+cd_meh_cat                               0.960329
+hm_cat                                   0.960201
+blend_av5_logit_blend                    0.960155
+blend_av5_rank_blend                     0.960120
+cdtfm_kumolarge                          0.960036
+cdtfm_xgboost                            0.959852
+av5_catboost_gpu                         0.959820
+cdtfm_realmlp                            0.959311
+kga_lgb_raw_k5                           0.959041
+kga_xgb_raw_k5                           0.958899
+cdtfm_tabfm                              0.958871
+kga_cat_raw_k5                           0.958711
+av5_lgbm_champion                        0.958668
+kz_source_transfer                       0.958646
+blend_kz_meta                            0.958645
+av5_lgbm_te_rows                         0.958568
+cdtfm_exaone                             0.958557
+av5_xgb_gpu                              0.958502
+cdtfm_kumosmall                          0.958484
+cdtfm_limix2                             0.958474
+cdtfm_causilo                            0.958275
+cdtfm_tabicl2                            0.958088
+av5_lgbm_te                              0.958013
+km_tabicl_fdcat_c250k                    0.957281
+cdtfm_mitra2                             0.957075
+gpx_gen_v1                               0.952399
+122 pairs imported; 100 skipped

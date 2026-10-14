@@ -1,0 +1,14 @@
+306 eligible: 184 v4 + 112 new public + 10 own not in v4 ['cpu4_lgbm_t34_auxA_k10', 'cpu4_lgbm_t34_k10', 'cpu4_lgbm_var_k10', 'gpu4_cat_aux_k10_dw10', 'gpu4_cat_noaux_k10_d6', 'gpu4_rmlp_raw_aux_k10_arch', 'gpu4_rmlp_raw_aux_k10_e6', 'gpu4_rmlp_raw_aux_k10_s3', 'gpu4_xgb_v2aux_k10', 'gpu4_xgb_v2aux_k10_d8']
+306 dedupe0.9995                         n=270 C=0.02   CV 0.962229 folds [0.962372 0.961426 0.962856 0.962438 0.962054] (47s)
+306 dedupe0.999                          n=229 C=0.02   CV 0.962230 folds [0.962378 0.961408 0.962865 0.962444 0.962054] (40s)
+306 -golem_p/q                           n=304 C=0.02   CV 0.962223 folds [0.962366 0.961402 0.962851 0.962436 0.96206 ] (43s)
+{np.str_('mlp'): 88, np.str_('gbdt'): 189, np.str_('tabpfn'): 17, np.str_('tfm'): 12}
+306 family scale pfn3.0 tfm1.5           n=306 C=0.02   CV 0.962234 folds [0.962394 0.961384 0.962843 0.962456 0.962091] (54s)
+306 family scale pfn2.0 tfm1.25          n=306 C=0.02   CV 0.962243 folds [0.962421 0.961399 0.962848 0.962462 0.962083] (47s)
+306 family scale pfn1.5 tfm1.0           n=306 C=0.02   CV 0.962238 folds [0.96241  0.961398 0.962859 0.962446 0.962076] (47s)
+306 + family means                       n=306 C=0.02   CV 0.962230 folds [0.962374 0.961416 0.962843 0.962444 0.962075] (59s)
+306 family means only                    n=306 C=0.02   CV 0.961864 folds [0.962029 0.961027 0.962517 0.961997 0.961752] (19s)
+306 two-level family LR (nested)         n=306 C=1.0    CV 0.962116 folds [0.962263 0.961268 0.96278  0.96228  0.961987] (204s)
+306 raw logits C=0.002: CV 0.962231 folds [0.962361 0.961405 0.962862 0.962462 0.962066] (117s)
+306 raw logits C=0.003: CV 0.962226 folds [0.962363 0.961396 0.962854 0.96246  0.96206 ] (136s)
+306 raw logits C=0.005: CV 0.962213 folds [0.962355 0.961374 0.962839 0.96245  0.962049] (126s)

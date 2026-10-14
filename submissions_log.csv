@@ -6,3 +6,5 @@ time,file,cv_auc,public_lb,notes
 2026-10-05T23:10,stack_lr_v2_nonaji.csv,0.961989,0.96164,LogReg stack of 125 members: own + public OOF libraries (goodpjw2008 sachith7 megayak dariushafshar arhancanli12)
 2026-10-06T11:20,stack_v3_lr_c002_all175.csv,0.962049,0.96173,LogReg C=0.02 on 175 members incl. busyaprime (kratosyan) + sadamtorres public OOF
 2026-10-06T14:01,stack_v4_lr_c002_all184.csv,0.962079,0.96177,LogReg C=0.02 on 184 members incl. own 10-fold RealMLP/CatBoost + aux features
+2026-10-15T00:08,stack_v5_famreg_pfn2_tfm125_306.csv,0.962243,0.96189,LogReg C=0.02 family-reg (tabpfn x2 TFM x1.25) on 306 members incl. new public OOF (cdeotte TFMs golem v6 goodpjw extra kagankoral koumeimaki abdullahsafwan333 amanatar etc)
+2026-10-15T00:08,stack_v5_flat_c002_306.csv,0.962231,0.96189,LogReg C=0.02 flat on 306 members
